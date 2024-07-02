@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  max-width: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.side_navbar {
+  /*Strictly Necessary */
+  position: fixed;
+  height: 100%;
+  width: 10%;
+  padding-top: 1rem;
+}
+
+.side_navbar button {
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.rightSideWrapper {
+  width: 90%;
+  float: right;
+}
+
+header {
+  position: fixed;
+  width: 90%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.youtube_logo img {
+  max-width: 100%;
+  height: auto;
+  width: 6rem;
+}
+
+.search_bar {
+  border: 1.5px solid rgb(204, 204, 204);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+input[type="text"] {
+  border: none;
+  background-color: transparent;
+  padding: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+#search_icon {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(204, 204, 204);
+  border-radius: 1rem;
+  margin-right: -0.8rem;
+}
+
+#mic_icon {
+  margin-left: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(204, 204, 204);
+  border-radius: 1rem;
+}
+
+.contentBox {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgb(204, 204, 204);
+}
+
+main {
+  height: 400px;
+  order: 1;
+  flex: 0 1 100%;
+}

@@ -53,22 +53,22 @@ header {
 
 .search_bar {
   display: inline-block;
-  width: 50px;
+
   border: 1px solid rgb(204, 204, 204);
   border-radius: 1rem;
   padding: 0.5rem;
   box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.222);
-  align-items: center;
 
   max-width: 70%;
   width: 400px;
   height: 40px;
 }
 
-input[type="text"] {
+.search_bar input {
+  width: 260px;
   border: none;
   background-color: transparent;
-  padding: 1rem;
+  margin-left: 10px;
 }
 
 input:focus {
@@ -76,12 +76,9 @@ input:focus {
 }
 
 #search_icon {
-  width: 2.5rem;
-  height: 2.38rem;
-  border: 0;
   background-color: rgb(204, 204, 204);
   border-radius: 1rem;
-  margin-right: -5rem;
+
   border-top-left-radius: 0.1rem;
   border-bottom-left-radius: 0.1rem;
 }

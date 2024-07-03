@@ -234,7 +234,7 @@ input:focus {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .gallery {
     grid-template-columns: repeat(1, 1fr);
   }

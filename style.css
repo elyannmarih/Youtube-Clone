@@ -82,10 +82,11 @@ header {
 
 .search_bar input {
   background: transparent;
-  padding: 0.8rem;
+  padding: 0.7rem;
   width: 525px;
   border: none;
   margin-left: 10px;
+  font-size: 1rem;
 }
 
 input:focus {
@@ -126,14 +127,38 @@ input:focus {
 
 .details {
   display: grid;
-  grid-template-columns: 10% 90%;
+  grid-template-columns: 14% 86%;
+}
+
+.details h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.details a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
+.details p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #4b4b4b;
+}
+
+.details button {
+  background: #ff929245;
+  padding: 0.6rem;
+  border-radius: 5rem;
 }
 
 .thumbnail img {
   max-width: 100%;
   height: auto;
   border-radius: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .recommended {
@@ -146,7 +171,7 @@ input:focus {
   background-color: #dbdbdb;
   border-radius: 0.5rem;
   padding: 0.5rem 0.5rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   margin-bottom: 1rem;
 }
 

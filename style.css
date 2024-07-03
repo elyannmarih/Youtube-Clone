@@ -1,3 +1,4 @@
+/* General Styles */
 * {
   margin: 0;
   padding: 0;
@@ -19,10 +20,11 @@ button {
   border: none;
 }
 
+/* Sidebar */
 .side_navbar {
   position: fixed;
   height: 100%;
-  width: 5%;
+  width: 80px;
 }
 
 .side_navbar button {
@@ -36,17 +38,18 @@ button {
   font-size: x-small;
 }
 
+/* Right Side Wrapper */
 .rightSideWrapper {
-  width: 95%;
+  width: calc(100% - 80px);
   float: right;
   scrollbar-width: 10px;
 }
 
+/* Header */
 header {
   position: fixed;
   width: 100%;
   background-color: #fff;
-
   margin-top: -0.4rem;
 }
 
@@ -57,25 +60,17 @@ header {
   justify-content: space-between;
 }
 
-.youtube_logo {
-  margin-right: 50px;
-}
-
 .youtube_logo img {
   max-width: 100%;
-
   height: auto;
   width: 7rem;
 }
 
 .search_bar {
   display: inline-block;
-
   border: 1px solid rgb(204, 204, 204);
   border-radius: 2rem;
-
   box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.2);
-
   width: 580px;
   height: 42px;
 }
@@ -121,7 +116,7 @@ input:focus {
 
 .gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
 
@@ -167,7 +162,6 @@ input:focus {
 
 .recommended button {
   width: auto;
-
   background-color: #dbdbdb;
   border-radius: 0.5rem;
   padding: 0.5rem 0.5rem;
@@ -179,4 +173,63 @@ input:focus {
   transition: ease-in-out 0.3s;
   background-color: #000;
   color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .search_bar {
+    width: 450px;
+  }
+
+  .search_bar input {
+    width: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .right_icons {
+    margin-right: 100px;
+  }
+
+  .search_bar {
+    width: 150px;
+  }
+
+  .search_bar input {
+    width: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .side_navbar {
+    width: 70px;
+  }
+
+  .rightSideWrapper {
+    width: calc(100% - 70px);
+  }
+
+  .right_icons {
+    margin-right: 60px;
+  }
+
+  .search_bar {
+    width: 93px;
+  }
+
+  .search_bar input {
+    width: 50px;
+  }
 }

@@ -65,7 +65,7 @@ header {
 }
 
 .search_bar input {
-  width: 260px;
+  width: 255px;
   border: none;
   background-color: transparent;
   margin-left: 10px;
@@ -76,11 +76,7 @@ input:focus {
 }
 
 #search_icon {
-  background-color: rgb(204, 204, 204);
-  border-radius: 1rem;
-
-  border-top-left-radius: 0.1rem;
-  border-bottom-left-radius: 0.1rem;
+  font-size: 15px;
 }
 
 #mic_icon {

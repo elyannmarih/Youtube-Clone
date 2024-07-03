@@ -20,21 +20,25 @@ button {
 }
 
 .side_navbar {
-  /*Strictly Necessary */
   position: fixed;
   height: 100%;
-  width: 10%;
+  width: 5%;
   padding-top: 1rem;
 }
 
 .side_navbar button {
-  margin: 1rem;
+  margin: 1rem 0;
   padding: 0.5rem;
-  width: 50%;
+  width: 100%;
+}
+
+.side_navbar button p {
+  margin-top: 0.5rem;
+  font-size: x-small;
 }
 
 .rightSideWrapper {
-  width: 90%;
+  width: 95%;
   float: right;
 }
 
@@ -103,7 +107,6 @@ input:focus {
   margin-top: 100px;
   display: flex;
   flex-flow: row wrap;
-  background-color: rgb(204, 204, 204);
 }
 
 .gallery {

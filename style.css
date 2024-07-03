@@ -46,12 +46,15 @@ header {
   position: fixed;
   width: 100%;
   background-color: #fff;
+
+  margin-top: -0.4rem;
+}
+
+.upperHeader {
   display: grid;
   grid-template-columns: repeat(3, auto);
   align-items: center;
   justify-content: space-between;
-
-  margin-top: -0.4rem;
 }
 
 .youtube_logo {
@@ -97,7 +100,7 @@ input:focus {
   margin-left: 0.5rem;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: rgb(204, 204, 204);
+  background-color: #dbdbdb;
   border-radius: 2rem;
 }
 
@@ -110,7 +113,7 @@ input:focus {
 }
 
 .contentBox {
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 0.5rem;
   margin-right: 1rem;
 }
@@ -123,7 +126,7 @@ input:focus {
 
 .details {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 10% 90%;
 }
 
 .thumbnail img {
@@ -131,4 +134,24 @@ input:focus {
   height: auto;
   border-radius: 0.5rem;
   margin-bottom: 2rem;
+}
+
+.recommended {
+  margin-left: 0.5rem;
+}
+
+.recommended button {
+  width: auto;
+
+  background-color: #dbdbdb;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.recommended button:hover {
+  transition: ease-in-out 0.3s;
+  background-color: #000;
+  color: white;
 }

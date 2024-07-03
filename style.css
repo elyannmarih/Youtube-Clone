@@ -13,6 +13,7 @@ button {
   max-width: 100%;
   background-color: transparent;
   border: none;
+  font-size: 20px;
 }
 
 .side_navbar {
@@ -67,7 +68,6 @@ header {
 .search_bar input {
   width: 255px;
   border: none;
-  background-color: transparent;
   margin-left: 10px;
 }
 
@@ -85,6 +85,10 @@ input:focus {
   height: 2rem;
   background-color: rgb(204, 204, 204);
   border-radius: 1rem;
+}
+
+.right_icons button {
+  margin: 15px;
 }
 
 .contentBox {

@@ -16,7 +16,7 @@ We welcome improvements and fixes!
 - Open a Pull Request
 
 <h1>Author</h1>
-Elyann Soto - <a href="www.linkedin.com/in/elyann-soto" target="_blank"> www.linkedin.com/in/elyann-soto</a>
+Elyann Soto - www.linkedin.com/in/elyann-soto
 
 <h1>License</h1>
-This project is licensed under the <a href="https://choosealicense.com/licenses/mit/" target="_blank">MIT License</a>.
+This project is licensed under the <a href="https://choosealicense.com/licenses/mit/">MIT License</a>.

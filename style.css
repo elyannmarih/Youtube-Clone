@@ -39,9 +39,10 @@ header {
   width: 90%;
   height: 100px;
 
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
   align-items: center;
+  justify-content: space-between;
 }
 
 .youtube_logo img {
@@ -51,10 +52,17 @@ header {
 }
 
 .search_bar {
+  display: inline-block;
+  width: 50px;
   border: 1px solid rgb(204, 204, 204);
   border-radius: 1rem;
   padding: 0.5rem;
   box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.222);
+  align-items: center;
+
+  max-width: 70%;
+  width: 400px;
+  height: 40px;
 }
 
 input[type="text"] {
@@ -73,7 +81,7 @@ input:focus {
   border: 0;
   background-color: rgb(204, 204, 204);
   border-radius: 1rem;
-  margin-right: -0.78rem;
+  margin-right: -5rem;
   border-top-left-radius: 0.1rem;
   border-bottom-left-radius: 0.1rem;
 }

@@ -5,16 +5,6 @@ This is a basic clone of the YouTube interface created using <i><b>HTML and CSS<
 
 ![screenshot_final](https://github.com/elyannmarih/Youtube-Clone/assets/126211501/52a766bd-6846-4612-b4f1-067b60b5282a)
 
-<h1>Contributing</h1>
-If you want to contribute to this project, please fork the repository and create a pull request. <br>
-We welcome improvements and fixes!
-
-- Fork the Project
-- Create your Feature Branch (git checkout -b feature/AmazingFeature)
-- Commit your Changes (git commit -m 'Add some AmazingFeature')
-- Push to the Branch (git push origin feature/AmazingFeature)
-- Open a Pull Request
-
 <h1>Author</h1>
 Elyann Soto - www.linkedin.com/in/elyann-soto
 
